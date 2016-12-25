@@ -30,4 +30,12 @@
 		<module>spring-batch-excel</module>
 	</modules>
 
+    <distributionManagement>
+        <repository>
+            <id>internal.repo</id>
+            <name>Temporary Staging Repository</name>
+            <url>file://${project.build.directory}/mvn-repo/releases</url>
+        </repository>
+    </distributionManagement>
+
 </project>
