@@ -74,7 +74,7 @@ public abstract class AbstractExcelItemReaderTests  {
         String[] row;
         do {
             row = (String[]) this.itemReader.read();
-            this.logger.debug("Read: " + StringUtils.arrayToCommaDelimitedString(row));
+            //this.logger.debug("Read: " + StringUtils.arrayToCommaDelimitedString(row));
             if (row != null) {
                 assertEquals(6, row.length);
             }

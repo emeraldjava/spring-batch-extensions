@@ -26,7 +26,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.batch.version>3.0.3.RELEASE</spring.batch.version>
+        <spring.batch.version>3.0.7.RELEASE</spring.batch.version>
         <jxl.version>2.6.12</jxl.version>
         <poi.version>3.11</poi.version>
     </properties>
@@ -81,14 +81,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <distributionManagement>
-        <repository>
-            <id>internal.repo</id>
-            <name>Temporary Staging Repository</name>
-            <url>file://${project.build.directory}/mvn-repo/releases</url>
-        </repository>
-    </distributionManagement>
 
     <build>
         <plugins>
