@@ -6,6 +6,12 @@ The Spring Batch Extensions project provides extension modules for the [Spring B
 ## Available Modules
 
 
+https://travis-ci.org/emeraldjava/spring-batch-extensions
+
+https://jitpack.io/#emeraldjava/spring-batch-extensions/0.5.1
+
+https://github.com/emeraldjava/spring-batch-extensions/releases/tag/0.5.1
+
 ## Samples
 
 Under the `samples` directory, you will find samples for the various modules. Please refer to the documentation of each sample for further details.
